@@ -162,6 +162,7 @@ function latestDates(movieList) {
         if (latestDates.length < 3) {
             latestDates.push({ date: movieDate, index: i });
         } else {
+            // latestDates.sort((a, b) => a.date - b.date);
             latestDates.sort((a, b) => b.date - a.date);
             if (movieDate > latestDates[latestDates.length - 1].date) {
                 latestDates.pop();
@@ -169,7 +170,9 @@ function latestDates(movieList) {
             }
         }
     }
+    // latestDates.sort((a, b) => a.date - b.date);
     latestDates.sort((a, b) => b.date - a.date);
+    // console.log("\n\tThe oldest 3 movies are:");
     console.log("\n\tThe Latest 3 movies are:");
     for (var j = 0; j < latestDates.length; j++) {
         var movie = movieList[latestDates[j].index];
