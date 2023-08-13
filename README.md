@@ -24,7 +24,7 @@ The Silver Vintage Movie Review Program is a command-line application that allow
 
 ## Usage
 - **Installation**: Make sure you have Node.js installed. Clone the repository and navigate to the project folder.
-- **Run the Program**: Run the program using the command `node 2334327_MINTHITKHINE_Stage2.js`.
+- **Run the Program**: Run the program using the command `node main.js`.
 - **Enter Your Name**: You will be prompted to enter your name.
 - **Main Menu**: You will see the main menu with options to perform various actions.
 
