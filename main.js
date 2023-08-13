@@ -1,6 +1,3 @@
- // Name : MIN THIT KHINE
-// Class: DCITP/FT/1A/04
-// Adm  : 2334327
 // --------------------------------------------------------------------
 // Packages
 const Movie = require('./movie.js');
